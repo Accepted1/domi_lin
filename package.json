@@ -1,0 +1,41 @@
+{
+  "name": "domi_lin",
+  "version": "0.0.1",
+  "author": "linxiaohui",
+  "bin": {
+    "domi": "./bin/run"
+  },
+  "bugs": "https://github.com/Accepted1/domi/issues",
+  "dependencies": {
+    "@oclif/command": "^1.8.15",
+    "@oclif/config": "^1.18.2",
+    "@oclif/plugin-help": "^3.2.18",
+    "child_process": "^1.0.2"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1.26.9",
+    "rimraf": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://github.com/Accepted1/domi",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "bin": "domi"
+  },
+  "repository": "Accepted1/domi",
+  "scripts": {
+    "prepack": "oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md"
+  }
+}
